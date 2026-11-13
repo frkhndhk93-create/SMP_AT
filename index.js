@@ -12,7 +12,7 @@ function createBot() {
     host: 'SMPxAT.aternos.me', 
     port: 23292,           
     username: 'AFK_Bot',   
-    version: '1.20.1'      
+    version: '1.20.5'      
   });
 
   bot.on('spawn', () => console.log('Bot joined!'));
