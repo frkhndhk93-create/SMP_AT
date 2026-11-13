@@ -9,8 +9,8 @@ app.listen(PORT, () => console.log(`Health server on ${PORT}`));
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'YOUR_SERVER_IP', 
-    port: 25565,           
+    host: 'SMPxAT.aternos.me', 
+    port: 23292,           
     username: 'AFK_Bot',   
     version: '1.20.1'      
   });
