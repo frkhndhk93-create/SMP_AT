@@ -14,7 +14,8 @@ async function startBot() {
       port: 23292,
       username: 'AFK_Bot',
       version: '1.20.5',
-      auth: 'offline'
+      auth: 'offline',
+      forceViaProxy: true 
     });
 
     bot.on('spawn', () => console.log('Bot joined!'));
